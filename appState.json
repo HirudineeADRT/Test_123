@@ -79,17 +79,6 @@
           "stageDeploymentId": "pyz0tq",
           "mode": 1
         }
-      },
-      "s3as2TestLahiru": {
-        "name": "s3as2TestLahiru",
-        "type": "S3",
-        "config": {
-          "mode": 1,
-          "bucket": {
-            "region": "us-east-1",
-            "name": "as2-test-lahiru"
-          }
-        }
       }
     },
     "customTemplate": {
@@ -125,7 +114,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1564113734554
+    "lastSave": 1564113784968
   },
   "VCS_STATE": {
     "provider": "GitHub",
