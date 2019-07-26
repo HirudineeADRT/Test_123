@@ -47,8 +47,9 @@
       }
     },
     "deletedFiles": [
-      "Test_123/test.py",
-      "Test_123/__init__.py"
+      "Test_123/__init__.py",
+      "Test_123/__init__.py",
+      "Test_123/test.py"
     ],
     "rootNode": "5e8f1a24-93b2-4ea9-97c5-06f054dbbed6",
     "openFiles": [
@@ -144,7 +145,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1564117640426
+    "lastSave": 1564118157870
   },
   "VCS_STATE": {
     "provider": "GitHub",
