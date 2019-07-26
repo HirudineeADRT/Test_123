@@ -35,7 +35,15 @@
             "resourceName": "apigusEast1TestAPIsampleget",
             "config": {}
           }
-        ]
+        ],
+        "testCases": {
+          "1f0bb7a7-5454-4e01-921b-da59f3b577af": {
+            "id": "1f0bb7a7-5454-4e01-921b-da59f3b577af",
+            "name": "Unnamed event",
+            "functionId": "d8ac8980-c587-425b-8da0-c7cdd8f15e09",
+            "event": "{\n    \"key1\": \"value1\",\n    \"key2\": \"value2\",\n    \"key3\": \"value3\"\n}"
+          }
+        }
       }
     },
     "deletedFiles": [],
@@ -79,17 +87,6 @@
           "stageDeploymentId": "pyz0tq",
           "mode": 1
         }
-      },
-      "s3as2TestLahiru": {
-        "name": "s3as2TestLahiru",
-        "type": "S3",
-        "config": {
-          "mode": 1,
-          "bucket": {
-            "region": "us-east-1",
-            "name": "as2-test-lahiru"
-          }
-        }
       }
     },
     "customTemplate": {
@@ -125,7 +122,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1564114068522
+    "lastSave": 1564114555396
   },
   "VCS_STATE": {
     "provider": "GitHub",
