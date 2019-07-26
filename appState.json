@@ -8,7 +8,9 @@
         "type": "DIRECTORY",
         "isDirectory": true,
         "children": [
-          "d8ac8980-c587-425b-8da0-c7cdd8f15e09"
+          "d8ac8980-c587-425b-8da0-c7cdd8f15e09",
+          "5d65edb9-07e8-4660-8b15-cb283cd0f24f",
+          "47add075-5464-4f77-a91c-7e15790dddf0"
         ],
         "isRemovable": false,
         "filePath": "Test_123"
@@ -44,14 +46,45 @@
             "event": "{\n    \"key1\": \"value1\",\n    \"key2\": \"value2\",\n    \"key3\": \"value3\"\n}"
           }
         }
+      },
+      "5d65edb9-07e8-4660-8b15-cb283cd0f24f": {
+        "id": "5d65edb9-07e8-4660-8b15-cb283cd0f24f",
+        "parent": "5e8f1a24-93b2-4ea9-97c5-06f054dbbed6",
+        "name": "test.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Test_123/test.py",
+        "code": "def handler(event, context):\n    \n    return {\"message\": \"Successfully executed\"}\n",
+        "config": {
+          "runtime": "python2.7",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "47add075-5464-4f77-a91c-7e15790dddf0": {
+        "id": "47add075-5464-4f77-a91c-7e15790dddf0",
+        "parent": "5e8f1a24-93b2-4ea9-97c5-06f054dbbed6",
+        "name": "__init__.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Test_123/__init__.py",
+        "code": ""
       }
     },
     "deletedFiles": [],
     "rootNode": "5e8f1a24-93b2-4ea9-97c5-06f054dbbed6",
     "openFiles": [
-      "d8ac8980-c587-425b-8da0-c7cdd8f15e09"
+      "d8ac8980-c587-425b-8da0-c7cdd8f15e09",
+      "5d65edb9-07e8-4660-8b15-cb283cd0f24f"
     ],
-    "currentFileId": "d8ac8980-c587-425b-8da0-c7cdd8f15e09",
+    "currentFileId": "5d65edb9-07e8-4660-8b15-cb283cd0f24f",
     "resources": {
       "apigusEast1TestAPIsampleget": {
         "name": "apigusEast1TestAPIsampleget",
@@ -112,6 +145,14 @@
         "shouldPersist": false,
         "displayOnly": false,
         "editable": false
+      },
+      {
+        "lambdaId": "5d65edb9-07e8-4660-8b15-cb283cd0f24f",
+        "varKey": "PYTHONPATH",
+        "varValue": "/var/runtime:/var/task/Test_123",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
       }
     ],
     "packageJSON": {
@@ -133,7 +174,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1564115809232
+    "lastSave": 1564116951967
   },
   "VCS_STATE": {
     "provider": "GitHub",
